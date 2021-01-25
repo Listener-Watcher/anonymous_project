@@ -1,0 +1,115 @@
+nav
+{
+    overflow:hidden;
+    background-color:black;
+    margin-bottom:20px;
+}
+a
+{
+    color:white;
+    float:left;
+    text-decoration:none;
+    font-size:17px;
+    text-align:center;
+    padding:15px;
+}
+#table_a
+{
+    color:purple;
+    text-decoration:underline;
+    font-size:17px;
+    text-align:left;
+    padding:2px;
+}
+p
+{
+    font-size:17px;
+    padding:2px;
+}
+label
+{
+    margin-left:10px;
+
+    font-family:'Times New Roman', Times, serif;
+    font-weight:540;
+    font-size:medium;
+}
+#fname
+{
+    margin-left:10px;
+}
+#lname
+{
+    margin-left:10px;
+    margin-bottom:20px;
+}
+#avenger
+{
+    margin-left:20px;    
+}
+#darkknight
+{
+    margin-left:20px;    
+}
+#tenet
+{
+    margin-left:20px;
+    margin-bottom:20px;
+}
+#done
+{
+    margin-left:10px;   
+}
+.image-container
+{
+    display:grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows:200px 200px;
+    gap:30px;
+    grid-template-areas:
+    "photo photo photo"
+    "photo photo photo";
+}
+.image_item{
+    grid-area:photo;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+    padding:5px;
+}
+.video-container
+{
+    display:grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows:200px;
+    gap:30px;
+    grid-template-areas:
+    "video video video";
+}
+.video_item{
+    grid-area:video;
+}
+video{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+    padding:5px;
+}
+table,th,td
+{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+table
+{
+    width:100%;
+}
+th
+{
+    text-align:left;
+    padding:2px;
+}
