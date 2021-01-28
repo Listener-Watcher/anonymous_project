@@ -1,35 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" href="style.css">
         <title>Design By Yufei</title>
     </head>
-    
+
     <body>
         <nav>
-            <a href="./index.html">Text</a>
+            <h1>Welcome to My website</h1>
+            <a id=active href="./index.html">Home</a>
             <a href="./image/image.html">Images</a>
             <a href="./video/video.html">Videos</a>
             <a href="./table/table.html">Table</a>
+            <a href="./email/email.html">Email</a>
         </nav>
-        <form>
-            <label for="fname">First name:</label><br>
-            <input type="text" id=
-            "fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id=
-            "lname" name="lname"><br>
-            <label style="margin-left:10px;
-            font-family:'Times New Roman', Times, serif;
-            font-weight:540;
-            font-size:large;">Favorite Movie</label><br>
-            <input type="radio" name="mv" id="avenger" value="Avenger">
-            <label for="avenger">Avenger</label><br>
-            <input type="radio" name="mv" id="darkknight" value="Dark Knight">
-            <label for="darkknight">Dark Knight</label><br>
-            <input type="radio" name="mv" id="tenet" value="Tenet">
-            <label for="tenet">Tenet</label><br>
-            <input type="submit" value="Done" id="done">
-        </form>
+        <div id=textbox>
+            <img src="./image/1.jpg" class=alignleft>
+            <h2 class=alignright>About me</h2>
+            <p class=alignright>For the fields of computer science, I am especially interested in quantum computing, machine learning and cryptography. I am also a huge fan of physics.I am a strong Go player and enjoy playing Go more than 15 years and currently the chairman of UCSB Go Club. Apart from boarding game, I love all kinds of music except rock music.</p>
+            <div style="clear: both;"></div>
+        </div>
     </body>
 </html>

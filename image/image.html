@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" href="../style.css">
+        <script src="../image_script.js"></script>
         <title>Design By Yufei</title>
     </head>
     <body>
         <nav>
-            <a href="../index.html">Text</a>
-            <a href="./image.html">Images</a>
+            <h1>My Images</h1>
+            <a href="../index.html">Home</a>
+            <a id=active href="./image.html">Images</a>
             <a href="../video/video.html">Videos</a>
             <a href="../table/table.html">Table</a>
+            <a href="../email/email.html">Email</a>
         </nav>
-        <div class="image-container">
-            <div class="image-item"><img src="1.jpg"></div>
-            <div class="image-item"><img src="2.jpg"></div>
-            <div class="image-item"><img src="3.jpg"></div>
-            <div class="image-item"><img src="4.jpg"></div>
-            <div class="image-item"><img src="5.jpg"></div>
-            <div class="image-item"><img src="6.jpg"></div>
-        </div>
+        <main>
+            <figure id=myimg><img src="1.jpg"></figure>
+            <figure id=myimg><img src="2.jpg"></figure>
+            <figure id=myimg><img src="3.jpg"></figure>
+            <figure id=myimg><img src="4.jpg"></figure>
+            <figure id=myimg><img src="5.jpg"></figure>
+            <figure id=myimg><img src="6.jpg"></figure>
+            <figure id=myimg><img src="7.jpg"></figure>
+            <figure id=myimg><img src="8.jpg"></figure>
+            <figure id=myimg><img src="9.jpg"></figure>
+            <figure id=myimg><img src="10.jpg"></figure>
+            <figure id=myimg><img src="11.jpg"></figure>
+            <figure id=myimg><img src="12.jpg"></figure>
+            <figure id=myimg><img src="13.jpg"></figure>
+            <figure id=myimg><img src="14.jpg"></figure>
+            <figure id=myimg><img src="15.jpg"></figure>
+        </main>
     </body>
+    <button onclick="topFunction()" id="myBtn" title="Top">Top</button>
+    <div id="myModal" class="modal">
+        <img class="modal-content" id="img01">
+    </div>
+    <script src="../button_script.js"></script>
+
 </html>
